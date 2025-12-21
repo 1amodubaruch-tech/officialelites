@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sidebar + Header Layout</title>
+  <link rel="stylesheet" href="../style.css/style.css">
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+    <h2 class="logo">Motto: Maintaining the love from top to bottom.</h2>
+    <nav>
+        <ul>
+        <li><a href="index.html">Home</a></li>
+
+        <!-- Celebrities with dropdown -->
+        <li class="has-submenu">
+            <a href="celebrities.html" id="celeb-link">Celebrities ▾</a>
+            <ul class="submenu">
+            <li><a href="Male.html">Male</a></li>
+            <li><a href="Female.html">Female</a></li>
+            </ul>
+        </li>
+
+        <li><a href="Bookings.html">Bookings</a></li>
+        <li><a href="Membership Card.html">Membership Card</a></li>
+        <li><a href="donation.html">Donations/Fundraisers</a></li>
+        </ul>
+    </nav>
+    </aside>
+
+    
+    <!-- BODY/CONTENT SECTIONS BELOW -->
+
+    <!-- HOME PAGE HERO SECTION -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <div>
+                    <div class="hero-badge">
+                        <span class="pulse"></span>
+                        Maintaining the love from top to bottom
+                    </div>
+                    
+                    <h1 class="hero-title">
+                        Empower Change, <br>
+                        <span class="gradient-text">Create Impact.</span>
+                    </h1>
+                    
+                    <p class="hero-description">
+                        Join a global community of elites dedicated to bridging the gap. Your contribution shapes the future of those in need.
+                    </p>
+                    
+                    <div class="button-group">
+                        <button class="btn-primary" onclick="location.href='#donations'">
+                            Start Donating 
+                            <span>→</span>
+                        </button>
+                        <a href="Membership Card.html" style="text-decoration: none;"><button class="btn-outline">Join Membership</button></a>
+                    </div>
+
+                    <div class="hero-avatars">
+                        <div class="avatar-group">
+                            <div class="avatar"><img src="https://i.pravatar.cc/100?img=11" alt="User"></div>
+                            <div class="avatar"><img src="https://i.pravatar.cc/100?img=12" alt="User"></div>
+                            <div class="avatar"><img src="https://i.pravatar.cc/100?img=13" alt="User"></div>
+                            <div class="avatar"><img src="https://i.pravatar.cc/100?img=14" alt="User"></div>
+                            <div class="avatar count">2k+</div>
+                        </div>
+                        <span>Trusted by 2,000+ donors worldwide</span>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <div class="hero-image-container">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=600&fit=crop" alt="Community Unity">
+                        <div class="hero-overlay"></div>
+                        <div class="hero-stats">
+                            <div class="hero-stats-value">$1.2M+</div>
+                            <div class="hero-stats-label">Funds raised for global initiatives in 2025</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- STATS SECTION -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11zm3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z"/></svg>
+                    </div>
+                    <div class="stat-value">50k+</div>
+                    <div class="stat-label">Lives Impacted</div>
+                </div>
+
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <svg fill="currentColor" viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.64 2.57 1.93 2.57 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+                    </div>
+                    <div class="stat-value">12k+</div>
+                    <div class="stat-label">Active Members</div>
+                </div>
+
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11zm3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z"/></svg>
+                    </div>
+                    <div class="stat-value">34</div>
+                    <div class="stat-label">Countries Reached</div>
+                </div>
+
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
+                    </div>
+                    <div class="stat-value">100%</div>
+                    <div class="stat-label">Transparency</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES SECTION -->
+    <section class="features-section">
+        <div class="container">
+            <div class="features-header">
+                <h2>Why Official Elites?</h2>
+                <p>We are more than just a platform; we are a movement dedicated to transparent, effective, and community-driven philanthropy.</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon blue">
+                        <svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11zm3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z"/></svg>
+                    </div>
+                    <h3>Direct Impact</h3>
+                    <p>100% of public donations go directly to funding our projects. We cover our operating costs through private donors.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon purple">
+                        <svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11zm3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z"/></svg>
+                    </div>
+                    <h3>Global Network</h3>
+                    <p>Connect with like-minded individuals, celebrities, and philanthropists who share your passion for change.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon amber">
+                        <svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
+                    </div>
+                    <h3>Transparency First</h3>
+                    <p>Track every dollar. Our blockchain-verified reporting ensures you know exactly where your money goes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Make a Difference?</h2>
+                <p>Join thousands of others in our mission to spread love and support from top to bottom.</p>
+                
+                <div class="cta-buttons">
+                    <button class="btn-secondary" onclick="location.href='#donations'">Donate Now</button>
+                    <button class="btn-outline-light" onclick="location.href='mailto:eliteoffic0ls@gmail.com?subject=Donation Inquiry&body=I\'m trying to contact you to know how the donation process works.'">Contact Us</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DONATION PAGE HERO -->
+    <section class="donation-hero" id="donations">
+        <div class="container">
+            <div class="donation-hero-content">
+                <h1>Your Generosity <br><span class="gradient-text">Fuels Our Mission</span></h1>
+                <p>Every donation, big or small, helps us maintain the love and provide essential support to communities worldwide.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- DONATION PAGE CONTENT -->
+    <section style="padding: 40px 0 80px;">
+        <div class="container">
+            <div class="donation-content">
+                <!-- Left: Info -->
+                <div class="donation-info">
+                    <div class="donation-card">
+                        <div class="donation-card-header">
+                            <h3>Why Donate via Email?</h3>
+                            <p>We prioritize security and personal connection.</p>
+                        </div>
+                        <div class="donation-card-content">
+                            <p>To ensure 100% security and to properly acknowledge your contribution, we handle all large donations through direct personal contact.</p>
+                            
+                            <ul class="donation-list">
+                                <li>
+                                    <svg class="check-icon" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                    <span class="donation-list-text">Zero platform fees - 100% goes to the cause</span>
+                                </li>
+                                <li>
+                                    <svg class="check-icon" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                    <span class="donation-list-text">Personalized tax receipts and documentation</span>
+                                </li>
+                                <li>
+                                    <svg class="check-icon" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                    <span class="donation-list-text">Direct line to our treasury team</span>
+                                </li>
+                                <li>
+                                    <svg class="check-icon" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                    <span class="donation-list-text">Customizable allocation of funds</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="donation-amounts">
+                        <div class="amount-card primary">
+                            <div class="amount-icon">💵</div>
+                            <div class="amount-value">$50</div>
+                            <div class="amount-label">Provides meals for a family</div>
+                        </div>
+                        <div class="amount-card secondary">
+                            <div class="amount-icon">❤️</div>
+                            <div class="amount-value">$100</div>
+                            <div class="amount-label">Supports medical aid</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Form -->
+                <div class="donation-sidebar">
+                    <div class="donation-form-card">
+                        <div class="form-header">
+                            <h3>Contact to Donate</h3>
+                            <p>Send us a message to initiate your donation.</p>
+                        </div>
+                        <div class="form-content">
+                            <div class="form-group">
+                                <label>Select Amount (Optional)</label>
+                                <div class="amount-buttons">
+                                    <a href="mailto:your-email@example.com?subject=Donation of $50">
+                                        <button class="amount-btn">$50</button>
+                                    </a>
+                                    <a href="mailto:your-email@example.com?subject=Donation of $50">
+                                        <button class="amount-btn">$100</button>
+                                    </a>
+                                    <a href="mailto:your-email@example.com?subject=Donation of $50">
+                                        <button class="amount-btn">$500</button>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="info-box">
+                                <svg fill="currentColor" viewBox="0 0 20 20"><path d="M2.5 1A1.5 1.5 0 001 2.5v15A1.5 1.5 0 002.5 19h15a1.5 1.5 0 001.5-1.5v-15A1.5 1.5 0 0017.5 1h-15zM7 9a2 2 0 11-4 0 2 2 0 014 0zM7 7a4 4 0 100-8 4 4 0 000 8zm7.5 6a3.5 3.5 0 11-7 0 3.5 3.5 0 017 0z"></svg>
+                                <p>Clicking the button below will open your email client to send a secure inquiry to our donation team.</p>
+                            </div>
+
+                            <a href="mailto:e0liteofficials@gmail.com?subject=I want to make a donation&body=Hello, I am interested in supporting Official Elites. Please guide me through the donation process." style="text-decoration: none;">
+                                <button class="btn-primary email-button">Email Us to Donate →</button>
+                            </a>
+
+                            <p class="form-disclaimer">By contacting us, you agree to our terms of service and privacy policy.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+  
+  <!-- FOOTER SECTION -->
+  <footer class="footer">
+    <div class="footer-container">
+      
+      <!-- Left Section -->
+      <div class="footer-left">
+        <h2 class="footer-logo">Official Elites</h2>
+        <p>&copy; 2018-2025 Official Elites. All rights reserved.</p>
+      </div>
+
+      <!-- Middle Section -->
+      <div class="footer-links">
+        <ul>
+          <li><a href="Terms.html">Terms & Conditions</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="donation.html">Support Our Work</a></li>
+        </ul>
+      </div>
+
+      <!-- Right Section -->
+      <div class="footer-right">
+        <label>🌍 Translate:</label>
+        <!-- Google Translate Widget -->
+        <div id="google_translate_element"></div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script src="../script.js/script.js"></script>
+  <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+</body>
+</html>
+

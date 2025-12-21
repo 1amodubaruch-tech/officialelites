@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sidebar + Header Layout</title>
+  <link rel="stylesheet" href="../style.css/style.css">
+</head>
+<body>
+
+  <!-- Sidebar -->
+<aside class="sidebar">
+  <h2 class="logo">Motto: Maintaining the love from top to bottom.</h2>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+
+      <!-- Celebrities with dropdown -->
+      <li class="has-submenu">
+        <a href="celebrities.html" id="celeb-link">Celebrities ▾</a>
+        <ul class="submenu">
+          <li><a href="Male.html">Male</a></li>
+          <li><a href="Female.html">Female</a></li>
+        </ul>
+      </li>
+
+      <li><a href="Bookings.html">Bookings</a></li>
+      <li><a href="Membership Card.html">Membership Card</a></li>
+      <li><a href="donation.html">Donations/Fundraisers</a></li>
+    </ul>
+  </nav>
+</aside>
+
+  <!-- Bookings Container -->
+  <div class="bookings-container">
+    <div class="bookings-content">
+      <h1 class="bookings-header">Book a Reservation</h1>
+      
+      <div class="bookings-grid">
+        <!-- Appointment Card -->
+        <a href="mailto:eliteoffic0ls@gmail.com?subject=Appointment%20Booking%20Request&body=Hello,%20I%20would%20like%20to%20book%20an%20appointment.%20Please%20provide%20me%20with%20available%20dates%20and%20times." class="booking-card">
+          <div class="booking-card-bg" style="background-image: url('../img/istockphoto-1382270691-612x612.jpg');"></div>
+          <div class="booking-card-overlay"></div>
+          <div class="booking-card-content">
+            <h3 class="booking-card-title">Appointments</h3>
+            <p class="booking-card-description">Schedule your personal appointment with our team</p>
+          </div>
+        </a>
+
+        <!-- Events and Entertainment Card -->
+        <a href="mailto:eliteoffica0ls@gmail.com?subject=Events%20and%20Entertainment%20Booking%20Request&body=Hello,%20I%20would%20like%20to%20book%20an%20event%20or%20entertainment%20service.%20Please%20provide%20me%20with%20more%20information." class="booking-card">
+          <div class="booking-card-bg" style="background-image: url('../img/images\ \(6\).jpeg');"></div>
+          <div class="booking-card-overlay"></div>
+          <div class="booking-card-content">
+            <h3 class="booking-card-title">Events and Entertainment</h3>
+            <p class="booking-card-description">Book premium events and entertainment services</p>
+          </div>
+        </a>
+
+        <a href="mailto:e0liteofficials@gmail.com?subject=Meet%20and%20Greet%20Booking%20Request&body=Hello,%20I%20would%20like%20to%20book%20a%20meet%20and%20greet%20session.%20Please%20provide%20me%20with%20available%20options." class="booking-card">
+          <div class="booking-card-bg" style="background-image: url('../img/meet2.webp');"></div>
+          <div class="booking-card-overlay"></div>
+          <div class="booking-card-content">
+            <h3 class="booking-card-title">Meet and Greet</h3>
+            <p class="booking-card-description">Experience exclusive meet and greet opportunities</p>
+          </div>
+        </a>
+
+        <!-- Vacations Card -->
+        <a href="mailto:el0iteofficials@gmail.com?subject=Vacation%20Booking%20Request&body=Hello,%20I%20would%20like%20to%20book%20a%20vacation%20package.%20Please%20provide%20me%20with%20available%20destinations%20and%20packages." class="booking-card">
+          <div class="booking-card-bg" style="background-image: url('../img/images\ \(7\).jpeg');"></div>
+          <div class="booking-card-overlay"></div>
+          <div class="booking-card-content">
+            <h3 class="booking-card-title">Vacations</h3>
+            <p class="booking-card-description">Plan your dream vacation with our exclusive packages</p>
+          </div>
+        </a>
+
+        <!-- Dining and Foods Card -->
+        <a href="mailto:eliteoffic0ls@gmail.com?subject=Dining%20and%20Foods%20Booking%20Request&body=Hello,%20I%20would%20like%20to%20make%20a%20dining%20reservation.%20Please%20provide%20me%20with%20available%20options%20and%20menus." class="booking-card">
+          <div class="booking-card-bg" style="background-image: url('../img/images\ \(8\).jpeg');"></div>
+          <div class="booking-card-overlay"></div>
+          <div class="booking-card-content">
+            <h3 class="booking-card-title">Dining and Foods</h3>
+            <p class="booking-card-description">Reserve a table at our premium dining experiences</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  
+  <!-- FOOTER SECTION -->
+  <footer class="footer">
+    <div class="footer-container">
+      
+      <!-- Left Section -->
+      <div class="footer-left">
+        <h2 class="footer-logo">Official Elites</h2>
+        <p>&copy; 2018-2025 Official Elites. All rights reserved.</p>
+      </div>
+
+      <!-- Middle Section -->
+      <div class="footer-links">
+        <ul>
+          <li><a href="Terms.html">Terms & Conditions</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="donation.html">Support Our Work</a></li>
+        </ul>
+      </div>
+
+      <!-- Right Section -->
+      <div class="footer-right">
+        <label>🌍 Translate:</label>
+        <!-- Google Translate Widget -->
+        <div id="google_translate_element"></div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script src="../script.js/script.js"></script>
+  <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+</body>
+</html>
+

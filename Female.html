@@ -1,0 +1,293 @@
+<!-- HTML: Structure of Female Celebrities page with sidebar, search bar, and cards -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Female Celebrities</title>
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="../style.css/style.css">
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h2 class="logo">Motto: Maintaining the love from top to bottom.</h2>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="has-submenu">
+          <a href="celebrities.html" id="celeb-link">Celebrities ▾</a>
+          <ul class="submenu">
+            <li><a href="Male.html">Male</a></li>
+            <li><a href="Female.html">Female</a></li>
+          </ul>
+        </li>
+        <li><a href="Bookings.html">Bookings</a></li>
+        <li><a href="Membership Card.html">Membership Card</a></li>
+        <li><a href="donation.html">Donations/Fundraisers</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+
+  <!-- Page Title -->
+  <h1 id="main-title">Female Celebrities</h1>
+
+  <!-- Search Bar -->
+  <div class="search-container">
+    <input type="text" id="searchInput" placeholder="🔍 Search celebrities...">
+    <button id="searchBtn">Search</button>
+  </div>
+  
+  <!-- Cards Grid -->
+  <div class="grid">
+    <div class="card" data-name="Emma Stone">
+      <img src="../img/Screenshot_20251214-165900.jpg" alt="Emma Stone">
+      <button onclick="toggleOptions(this)">View Options</button>
+      <div class="options">
+        <a href="https://en.wikipedia.org/wiki/Emma_Stone" target="_blank">ℹ️ Info</a>
+        <a href="donation.html">❤️Donate</a>
+        <a href="Membership Card.html">💳Membership Awareness</a>
+        <a href="https://t.me/username" target="_blank">📞Contact</a>
+      </div>
+    </div>
+
+    <div class="card" data-name="Beyonce">
+      <img src="../img/beyonce.webp" alt="Beyonce">
+      <button onclick="toggleOptions(this)">View Options</button>
+      <div class="options">
+        <a href="https://en.wikipedia.org/wiki/Beyoncé" target="_blank">ℹ️ Info</a>
+        <a href="donation.html">❤️Donate</a>
+        <a href="Membership Card.html">💳Membership Awareness</a>
+        <a href="https://t.me/username" target="_blank">📞Contact</a>
+      </div>
+    </div>
+
+    <div class="card" data-name="Jennifer Lawrence">
+      <img src="../img/Screenshot_20251214-165917.jpg" alt="Jennifer Lawrence">
+      <button onclick="toggleOptions(this)">View Options</button>
+      <div class="options">
+        <a href="https://en.wikipedia.org/wiki/Jennifer_Lawrence" target="_blank">ℹ️ Info</a>
+        <a href="donation.html">❤️Donate</a>
+        <a href="Membership Card.html">💳Membership Awareness</a>
+        <a href="https://t.me/username" target="_blank">📞Contact</a>
+      </div>
+    </div>
+
+    <div class="card" data-name="Ana de Armas">
+      <img src="../img/Screenshot_20251214-165928.jpg" alt="Ana de Armas">
+      <button onclick="toggleOptions(this)">View Options</button>
+      <div class="options">
+        <a href="https://en.wikipedia.org/wiki/Ana_de_Armas" target="_blank">ℹ️ Info</a>
+        <a href="donation.html">❤️Donate</a>
+        <a href="Membership Card.html">💳Membership Awareness</a>
+        <a href="https://t.me/username" target="_blank">📞Contact</a>
+      </div>
+    </div>
+
+    <div class="card" data-name="Dakota Johnson">
+      <img src="../img/Screenshot_20251214-165946.jpg" alt="Dakota Johnson">
+      <button onclick="toggleOptions(this)">View Options</button>
+      <div class="options">
+        <a href="https://en.wikipedia.org/wiki/Dakota_Johnson" target="_blank">ℹ️ Info</a>
+        <a href="donation.html">❤️Donate</a>
+        <a href="Membership Card.html">💳Membership Awareness</a>
+        <a href="https://t.me/username" target="_blank">📞Contact</a>
+      </div>
+    </div>
+
+    <div class="card" data-name="Kristen Stewart">
+      <img src="../img/Screenshot_20251214-170006.jpg" alt="Kristen Stewart">
+      <button onclick="toggleOptions(this)">View Options</button>
+      <div class="options">
+        <a href="https://en.wikipedia.org/wiki/Kristen_Stewart" target="_blank">ℹ️ Info</a>
+        <a href="donation.html">❤️Donate</a>
+        <a href="Membership Card.html">💳Membership Awareness</a>
+        <a href="https://t.me/username" target="_blank">📞Contact</a>
+      </div>
+    </div>
+
+    <div class="card" data-name="Lily James">
+      <img src="../img/Screenshot_20251214-170019.jpg" alt="Lily James">
+      <button onclick="toggleOptions(this)">View Options</button>
+      <div class="options">
+        <a href="https://en.wikipedia.org/wiki/Lily_James" target="_blank">ℹ️ Info</a>
+        <a href="donation.html">❤️Donate</a>
+        <a href="Membership Card.html">💳Membership Awareness</a>
+        <a href="https://t.me/username" target="_blank">📞Contact</a>
+      </div>
+    </div>
+
+    <div class="card" data-name="Zoe Kravitz">
+      <img src="../img/Screenshot_20251214-170038.jpg" alt="Zoe Kravitz">
+      <button onclick="toggleOptions(this)">View Options</button>
+      <div class="options">
+        <a href="https://en.wikipedia.org/wiki/Zoë_Kravitz" target="_blank">ℹ️ Info</a>
+        <a href="donation.html">❤️Donate</a>
+        <a href="Membership Card.html">💳Membership Awareness</a>
+        <a href="https://t.me/username" target="_blank">📞Contact</a>
+      </div>
+    </div>
+
+    <div class="card" data-name="Railey Keough">
+      <img src="../img/Screenshot_20251214-170055.jpg" alt="Railey Keough">
+      <button onclick="toggleOptions(this)">View Options</button>
+      <div class="options">
+        <a href="https://en.wikipedia.org/wiki/Riley_Keough" target="_blank">ℹ️ Info</a>
+        <a href="donation.html">❤️Donate</a>
+        <a href="Membership Card.html">💳Membership Awareness</a>
+        <a href="https://t.me/username" target="_blank">📞Contact</a>
+      </div>
+    </div>
+
+    <div class="card" data-name="Shailene Woodley">
+      <img src="../img/Screenshot_20251214-170108.jpg" alt="Shailene Woodley">
+      <button onclick="toggleOptions(this)">View Options</button>
+      <div class="options">
+        <a href="https://en.wikipedia.org/wiki/Shailene_Woodley" target="_blank">ℹ️ Info</a>
+        <a href="donation.html">❤️Donate</a>
+        <a href="Membership Card.html">💳Membership Awareness</a>
+        <a href="https://t.me/username" target="_blank">📞Contact</a>
+      </div>
+    </div>
+
+    <div class="card" data-name="Melissa Barrera">
+      <img src="../img/Screenshot_20251214-170121.jpg" alt="Melissa Barrera">
+      <button onclick="toggleOptions(this)">View Options</button>
+      <div class="options">
+        <a href="https://en.wikipedia.org/wiki/Melissa_Barrera" target="_blank">ℹ️ Info</a>
+        <a href="donation.html">❤️Donate</a>
+        <a href="Membership Card.html">💳Membership Awareness</a>
+        <a href="https://t.me/username" target="_blank">📞Contact</a>
+      </div>
+    </div>
+
+    <div class="card" data-name="Haley Bennett">
+      <img src="../img/Screenshot_20251214-170156.jpg" alt="Haley Bennett">
+      <button onclick="toggleOptions(this)">View Options</button>
+      <div class="options">
+        <a href="https://en.wikipedia.org/wiki/Haley_Bennett" target="_blank">ℹ️ Info</a>
+        <a href="donation.html">❤️Donate</a>
+        <a href="Membership Card.html">💳Membership Awareness</a>
+        <a href="https://t.me/username" target="_blank">📞Contact</a>
+      </div>
+    </div>
+
+    <div class="card" data-name="Kiki Layne">
+      <img src="../img/Screenshot_20251214-170213.jpg" alt="Kiki Layne">
+      <button onclick="toggleOptions(this)">View Options</button>
+      <div class="options">
+        <a href="https://en.wikipedia.org/wiki/KiKi_Layne" target="_blank">ℹ️ Info</a>
+        <a href="donation.html">❤️Donate</a>
+        <a href="Membership Card.html">💳Membership Awareness</a>
+        <a href="https://t.me/username" target="_blank">📞Contact</a>
+      </div>
+    </div>
+
+    <div class="card" data-name="Zazie Beetz">
+      <img src="../img/Screenshot_20251214-170225.jpg" alt="Zazie Beetz">
+      <button onclick="toggleOptions(this)">View Options</button>
+      <div class="options">
+        <a href="https://en.wikipedia.org/wiki/Zazie_Beetz" target="_blank">ℹ️ Info</a>
+        <a href="donation.html">❤️Donate</a>
+        <a href="Membership Card.html">💳Membership Awareness</a>
+        <a href="https://t.me/username" target="_blank">📞Contact</a>
+      </div>
+    </div>
+
+    <div class="card" data-name="Alicia Vikander">
+      <img src="../img/Screenshot_20251214-170237.jpg" alt="Alicia Vikander">
+      <button onclick="toggleOptions(this)">View Options</button>
+      <div class="options">
+        <a href="https://en.wikipedia.org/wiki/Alicia_Vikander" target="_blank">ℹ️ Info</a>
+        <a href="donation.html">❤️Donate</a>
+        <a href="Membership Card.html">💳Membership Awareness</a>
+        <a href="https://t.me/username" target="_blank">📞Contact</a>
+      </div>
+    </div>
+
+    <div class="card" data-name="Eiza Gonzalez">
+      <img src="../img/Screenshot_20251214-170250.jpg" alt="Eiza Gonzalez">
+      <button onclick="toggleOptions(this)">View Options</button>
+      <div class="options">
+        <a href="https://en.wikipedia.org/wiki/Eiza_González" target="_blank">ℹ️ Info</a>
+        <a href="donation.html">❤️Donate</a>
+        <a href="Membership Card.html">💳Membership Awareness</a>
+        <a href="https://t.me/username" target="_blank">📞Contact</a>
+      </div>
+    </div>
+
+    <div class="card" data-name="Zoey Deutch">
+      <img src="../img/Screenshot_20251214-170303.jpg" alt="Zoey Deutch">
+      <button onclick="toggleOptions(this)">View Options</button>
+      <div class="options">
+        <a href="https://en.wikipedia.org/wiki/Zoey_Deutch" target="_blank">ℹ️ Info</a>
+        <a href="donation.html">❤️Donate</a>
+        <a href="Membership Card.html">💳Membership Awareness</a>
+        <a href="https://t.me/username" target="_blank">📞Contact</a>
+      </div>
+    </div>
+
+    <div class="card" data-name="Margot Robbie">
+      <img src="../img/Screenshot_20251214-170314.jpg" alt="Margot Robbie">
+      <button onclick="toggleOptions(this)">View Options</button>
+      <div class="options">
+        <a href="https://en.wikipedia.org/wiki/Margot_Robbie" target="_blank">ℹ️ Info</a>
+        <a href="donation.html">❤️Donate</a>
+        <a href="Membership Card.html">💳Membership Awareness</a>
+        <a href="https://t.me/username" target="_blank">📞Contact</a>
+      </div>
+    </div>
+
+    <div class="card" data-name="Saoirse Ronan">
+      <img src="../img/Screenshot_20251214-170324.jpg" alt="Saoirse Ronan">
+      <button onclick="toggleOptions(this)">View Options</button>
+      <div class="options">
+        <a href="https://en.wikipedia.org/wiki/Saoirse_Ronan" target="_blank">ℹ️ Info</a>
+        <a href="donation.html">❤️Donate</a>
+        <a href="Membership Card.html">💳Membership Awareness</a>
+        <a href="https://t.me/username" target="_blank">📞Contact</a>
+      </div>
+    </div>
+
+
+    <!-- Duplicate for 30 cards -->
+  </div>
+
+  <!-- FOOTER SECTION -->
+  <footer class="footer">
+    <div class="footer-container">
+      
+      <!-- Left Section -->
+      <div class="footer-left">
+        <h2 class="footer-logo">Official Elites</h2>
+        <p>&copy; 2018-2025 Official Elites. All rights reserved.</p>
+      </div>
+
+      <!-- Middle Section -->
+      <div class="footer-links">
+        <ul>
+          <li><a href="Terms.html">Terms & Conditions</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="donation.html">Support Our Work</a></li>
+        </ul>
+      </div>
+
+      <!-- Right Section -->
+      <div class="footer-right">
+        <label>🌍 Translate:</label>
+        <!-- Google Translate Widget -->
+        <div id="google_translate_element"></div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- External JS -->
+  <script src="../script.js/script.js"></script>
+  <!-- Inline JS for search functionality -->
+  <script src="../script.js/search.js"></script>
+</body>
+</html>
